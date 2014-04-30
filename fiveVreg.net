@@ -1,0 +1,50 @@
+# EESchema Netlist Version 1.1 created  Fri 11 Apr 2014 00:08:00 BST
+(
+ ( /5347152A SM1206 C1 C_SMALL
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /53471531 SM1206 C2 C_SMALL
+  ( 1 N-000004 )
+  ( 2 GND )
+ )
+ ( /53471361 TERM_2-WAY_24A J1 CONN2
+  ( 1 GND )
+  ( 2 +12V )
+ )
+ ( /53471367 TERM_2-WAY_24A J2 CONN2
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /53471371 PIN_ARRAY_3X1 J3 CONN3
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 +5V )
+ )
+ ( /53472418 PIN_ARRAY_3X1 K1 CONN_3
+  ( 1 N-000004 )
+  ( 2 GND )
+  ( 3 +5V )
+ )
+ ( /53471582 SM1210 L1 L_MINI
+  ( 1 +12V )
+  ( 2 N-000004 )
+ )
+ ( /53472094 3_2mounting_hole P1 CONN_1
+  ( 1 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
