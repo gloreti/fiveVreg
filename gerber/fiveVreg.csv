@@ -1,0 +1,7 @@
+Id,Designator,Package,Quantity,Designation,Supplier and ref,
+1,C1,SM1206,1,0.33uF,,
+2,C2,SM1206,1,0.1uF,,
+3,J3,PIN_ARRAY_3X1,1,CONN3,B07-1x3-AG1-G,http://www.toby.co.uk/Content/catalogue/products.aspx?series=B07-XxXX-AG1-G
+4,"J1,J2",TERM_2-WAY_24A,2,CONN2,Camden boss CTB0110/2,http://uk.farnell.com/camdenboss/ctb0110-2/terminal-block-pcb-2way-30-12awg/dp/3882573
+5,"P1,P2",3_2mounting_hole,2,CONN_1,N/A,
+6,K1,TO220,1,LM7805,,

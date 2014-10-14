@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2 may 2014"
+Date "11 may 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -50,7 +50,7 @@ $EndDescr
 Wire Wire Line
 	5500 3000 5950 3000
 Wire Wire Line
-	5300 3000 4500 3000
+	4000 3000 5300 3000
 Wire Wire Line
 	2800 4050 2800 3750
 Wire Wire Line
@@ -58,13 +58,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 3000 5950 2750
 Connection ~ 5400 4000
-Wire Wire Line
-	4700 4000 4700 3750
-Connection ~ 4700 3000
-Wire Wire Line
-	4700 3550 4700 3000
-Wire Wire Line
-	4000 3000 4300 3000
 Wire Wire Line
 	3400 2950 3400 2650
 Wire Wire Line
@@ -84,7 +77,6 @@ Wire Wire Line
 Connection ~ 4000 3000
 Wire Wire Line
 	4000 3750 4000 4000
-Connection ~ 4700 4000
 Wire Wire Line
 	3050 3650 2800 3650
 Wire Wire Line
@@ -116,25 +108,14 @@ F 3 "" H 5900 4000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L_MINI L1
-U 1 1 53471582
-P 4400 3000
-F 0 "L1" H 4325 2950 30  0000 C CNN
-F 1 "L_MINI" H 4400 3050 22  0000 C CNN
-F 2 "" H 4400 3000 60  0001 C CNN
-F 3 "" H 4400 3000 60  0001 C CNN
-	1    4400 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L C_SMALL C2
 U 1 1 53471531
-P 4700 3650
-F 0 "C2" H 4725 3725 50  0000 L CNN
-F 1 "C_SMALL" H 4700 3575 50  0000 L CNN
-F 2 "" H 4700 3650 60  0001 C CNN
-F 3 "" H 4700 3650 60  0001 C CNN
-	1    4700 3650
+P 5650 3400
+F 0 "C2" H 5675 3475 50  0000 L CNN
+F 1 "0.1uF" H 5700 3300 50  0000 L CNN
+F 2 "" H 5650 3400 60  0001 C CNN
+F 3 "" H 5650 3400 60  0001 C CNN
+	1    5650 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -142,7 +123,7 @@ L C_SMALL C1
 U 1 1 5347152A
 P 4000 3650
 F 0 "C1" H 4025 3725 50  0000 L CNN
-F 1 "C_SMALL" H 4000 3575 50  0000 L CNN
+F 1 "0.33uF" H 4050 3550 50  0000 L CNN
 F 2 "" H 4000 3650 60  0001 C CNN
 F 3 "" H 4000 3650 60  0001 C CNN
 	1    4000 3650
@@ -294,4 +275,12 @@ $EndComp
 Wire Wire Line
 	5750 3900 5400 3900
 Connection ~ 5400 3900
+Wire Wire Line
+	5650 3300 5650 3000
+Connection ~ 5650 3000
+Wire Wire Line
+	5650 3500 5650 3700
+Wire Wire Line
+	5650 3700 5400 3700
+Connection ~ 5400 3700
 $EndSCHEMATC

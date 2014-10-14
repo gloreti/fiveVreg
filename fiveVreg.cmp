@@ -1,16 +1,16 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Fri 02 May 2014 14:31:00 BST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sun 11 May 2014 21:34:03 BST
 
 BeginCmp
 TimeStamp = /5347152A;
 Reference = C1;
-ValeurCmp = C_SMALL;
+ValeurCmp = 0.33uF;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53471531;
 Reference = C2;
-ValeurCmp = C_SMALL;
+ValeurCmp = 0.1uF;
 IdModule  = SM1206;
 EndCmp
 
@@ -40,13 +40,6 @@ TimeStamp = /53472418;
 Reference = K1;
 ValeurCmp = CONN_3;
 IdModule  = PIN_ARRAY_3X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /53471582;
-Reference = L1;
-ValeurCmp = L_MINI;
-IdModule  = SM1210;
 EndCmp
 
 BeginCmp
