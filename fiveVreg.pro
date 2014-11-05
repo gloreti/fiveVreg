@@ -1,8 +1,6 @@
-update=Fri 11 Apr 2014 00:00:42 BST
+update=Thu 16 Oct 2014 09:57:21 BST
 version=1
-last_client=pcbnew
-[general]
-version=1
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -106,3 +104,5 @@ LibName11=valves
 LibName12=/home/jeanmarc/Documents/Electronics/duet/Duet0.6/FE Footprints
 LibName13=/home/jeanmarc/Documents/Electronics/kicadlibs/SparkFun
 LibName14=fiveVreg
+[general]
+version=1
